@@ -1,0 +1,51 @@
+.pastel-bg {
+    background-color: #a7e7cc;
+}
+
+.grey {
+    background-color: #00000062;
+}
+
+.round {
+    border-radius: 50%;
+    border: 5px solid #111111;
+}
+
+.myimg {
+    width: 700;
+    height: 500;
+    border-radius: 10px;
+}
+
+.slideleft {
+    animation: 2s ease-out 0s 1 slideLeft;
+}
+
+.slideRight {
+    animation: 2s ease-out 0s 1 slideRight;
+}
+
+.ticon:hover {
+    border: 2px solid black;
+}
+
+@keyframes slideLeft {
+    0% {
+        transform: translateX(-100%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+    
+}
+
+@keyframes slideRight {
+    0% {
+        transform: translateX(+100%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+    
+}
+
